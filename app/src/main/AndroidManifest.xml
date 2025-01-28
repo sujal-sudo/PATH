@@ -13,10 +13,16 @@
         android:theme="@style/Theme.PATH"
         tools:targetApi="31">
         <activity
-            android:name=".OnboardingActivity"
+            android:name=".ui.activity.DashboardActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.OnboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

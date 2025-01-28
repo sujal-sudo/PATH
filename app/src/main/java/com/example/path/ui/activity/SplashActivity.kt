@@ -1,4 +1,4 @@
-package com.example.path
+package com.example.path.ui.activity
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator

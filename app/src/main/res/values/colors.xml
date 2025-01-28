@@ -1,13 +1,13 @@
 <resources>
-    <!-- Primary Colors -->
-    <color name="primary_color">#8A8D91</color> <!-- Warm Steel -->
-    <color name="accent_color">#D4A373</color> <!-- Muted Sand -->
+    <!-- Primary and Accent Colors -->
+    <color name="primary_color">#7A8C99</color> <!-- Muted Blue Gray -->
+    <color name="accent_color">#C9B79C</color> <!-- Warm Sand Beige -->
 
     <!-- Background and Text Colors -->
-    <color name="background_color">#F8F6F3</color> <!-- Soft Cream -->
-    <color name="text_primary">#2C2C2C</color> <!-- Deep Graphite -->
-    <color name="text_secondary">#7F8487</color> <!-- Cool Taupe -->
+    <color name="background_color">#F5F5F2</color> <!-- Off-White Cream -->
+    <color name="text_primary">#2D2D2D</color> <!-- Deep Charcoal -->
+    <color name="text_secondary">#757575</color> <!-- Cool Slate Gray -->
 
-    <!-- Highlight Colors -->
-    <color name="success_color">#B08968</color> <!-- Dusty Copper -->
+    <!-- Highlight Color -->
+    <color name="success_color">#A77B5D</color> <!-- Rustic Copper -->
 </resources>
