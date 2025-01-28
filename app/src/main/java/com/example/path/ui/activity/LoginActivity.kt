@@ -78,9 +78,9 @@ class LoginActivity : AppCompatActivity() {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()) {
                         for (userSnapshot in snapshot.children) {
-                            val userData = userSnapshot.getValue(UserData::class.java)
+//                            val userData = userSnapshot.getValue(UserData::class.java)
 
-                            Log.d("LoginDebug", "Fetched UserData: $userData") // Debugging Log
+//                            Log.d("LoginDebug", "Fetched UserData: $userData") // Debugging Log
 
 //                            if (userData != null && userData.email == email && userData.password == password) {
 //                                Toast.makeText(this@LoginActivity, "Login Successful", Toast.LENGTH_SHORT).show()
