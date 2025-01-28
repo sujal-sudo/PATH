@@ -1,5 +1,6 @@
 package com.example.path.ui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -18,7 +19,7 @@ class OnboardingActivity: AppCompatActivity() {
     private lateinit var indicatorsLayout: LinearLayout
     private lateinit var signUpButton: MaterialButton
     private lateinit var loginButton: MaterialButton
-    private lateinit var skipButton: TextView
+
 
     private val onboardingSlides = listOf(
         OnboardingSlide(
@@ -47,22 +48,22 @@ class OnboardingActivity: AppCompatActivity() {
         setupIndicators()
 
 //
-////Explicit Intent to Signup Page
-//        signUpButton.setOnClickListener {
-//            val intent = Intent(this@OnboardingActivity, SignUpActivity::class.java)
-//            startActivity(intent)
-//
-//        }
-//
-//
-//
-////Explicit Intent to Login Page
-//        loginButton.setOnClickListener {
-//            val intent = Intent(this@OnboardingActivity, LoginActivity::class.java)
-//            startActivity(intent)
-//
-//        }
-//
+//Explicit Intent to Signup Page
+        signUpButton.setOnClickListener {
+            val intent = Intent(this@OnboardingActivity, SignUpActivity::class.java)
+            startActivity(intent)
+
+        }
+
+
+
+//Explicit Intent to Login Page
+        loginButton.setOnClickListener {
+            val intent = Intent(this@OnboardingActivity, LoginActivity::class.java)
+            startActivity(intent)
+
+        }
+
 //
 //
     }
@@ -121,10 +122,10 @@ class OnboardingActivity: AppCompatActivity() {
     }
 
 //
-//    private fun navigateToSignUp() {
-//        startActivity(Intent(this, SignUpActivity::class.java))
-//    }
-//}
+    private fun navigateToSignUp() {
+        startActivity(Intent(this, SignUpActivity::class.java))
+    }
+}
 
     data class OnboardingSlide(
         val image: Int,
@@ -163,4 +164,3 @@ class OnboardingActivity: AppCompatActivity() {
 
         override fun getItemCount() = slides.size
     }
-}

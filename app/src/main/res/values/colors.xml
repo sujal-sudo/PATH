@@ -1,13 +1,7 @@
 <resources>
-    <!-- Primary and Accent Colors -->
-    <color name="primary_color">#7A8C99</color> <!-- Muted Blue Gray -->
-    <color name="accent_color">#C9B79C</color> <!-- Warm Sand Beige -->
-
-    <!-- Background and Text Colors -->
-    <color name="background_color">#F5F5F2</color> <!-- Off-White Cream -->
-    <color name="text_primary">#2D2D2D</color> <!-- Deep Charcoal -->
-    <color name="text_secondary">#757575</color> <!-- Cool Slate Gray -->
-
-    <!-- Highlight Color -->
-    <color name="success_color">#A77B5D</color> <!-- Rustic Copper -->
+    <color name="primary_color">#228B22</color>
+    <color name="secondary_color">#87CEEB</color>
+    <color name="accent_color">#FFD700</color>
+    <color name="background_color">#F5F5DC</color>
+    <color name="text_color">#333333</color>
 </resources>
