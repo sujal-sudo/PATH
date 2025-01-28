@@ -15,7 +15,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
 
-        val logoText: TextView = findViewById(R.id.logotext)
+        val logoText: TextView = findViewById(R.drawable.path)
         // Create fade in and scale animations
         val fadeIn = ObjectAnimator.ofFloat(logoText, "alpha", 0f, 1f)
         val scaleX = ObjectAnimator.ofFloat(logoText, "scaleX", 0.5f, 1f)

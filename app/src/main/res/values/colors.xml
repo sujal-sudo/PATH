@@ -1,13 +1,13 @@
 <resources>
     <!-- Primary Colors -->
-    <color name="primary_color">#39C139</color> <!-- Forest Green -->
-    <color name="accent_color">#FF4500</color> <!-- Sunset Orange -->
+    <color name="primary_color">#8A8D91</color> <!-- Warm Steel -->
+    <color name="accent_color">#D4A373</color> <!-- Muted Sand -->
 
     <!-- Background and Text Colors -->
-    <color name="background_color">#FAF3E0</color> <!-- Light Beige -->
-    <color name="text_primary">#333333</color> <!-- Charcoal Gray -->
-    <color name="text_secondary">#6C757D</color> <!-- Slate Gray -->
+    <color name="background_color">#F8F6F3</color> <!-- Soft Cream -->
+    <color name="text_primary">#2C2C2C</color> <!-- Deep Graphite -->
+    <color name="text_secondary">#7F8487</color> <!-- Cool Taupe -->
 
     <!-- Highlight Colors -->
-    <color name="success_color">#20B2AA</color> <!-- Soft Teal -->
+    <color name="success_color">#B08968</color> <!-- Dusty Copper -->
 </resources>
