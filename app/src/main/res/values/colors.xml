@@ -1,7 +1,13 @@
 <resources>
-    <color name="primary_color">#228B22</color>
-    <color name="secondary_color">#87CEEB</color>
-    <color name="accent_color">#FFD700</color>
-    <color name="background_color">#F5F5DC</color>
-    <color name="text_color">#333333</color>
+    <!-- Primary Colors -->
+    <color name="primary_color">#228B22</color> <!-- Forest Green -->
+    <color name="accent_color">#FF4500</color> <!-- Sunset Orange -->
+
+    <!-- Background and Text Colors -->
+    <color name="background_color">#FAF3E0</color> <!-- Light Beige -->
+    <color name="text_primary">#333333</color> <!-- Charcoal Gray -->
+    <color name="text_secondary">#6C757D</color> <!-- Slate Gray -->
+
+    <!-- Highlight Colors -->
+    <color name="success_color">#20B2AA</color> <!-- Soft Teal -->
 </resources>
